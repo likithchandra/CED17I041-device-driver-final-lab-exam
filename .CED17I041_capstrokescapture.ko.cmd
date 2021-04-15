@@ -1,0 +1,1 @@
+cmd_/home/likith/devicedrivers/lab9/CED17I041_capstrokescapture.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/likith/devicedrivers/lab9/CED17I041_capstrokescapture.ko /home/likith/devicedrivers/lab9/CED17I041_capstrokescapture.o /home/likith/devicedrivers/lab9/CED17I041_capstrokescapture.mod.o ;  true
